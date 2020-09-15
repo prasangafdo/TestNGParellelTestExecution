@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-13T17:51:00 IST" name="Suite" finished-at="2020-09-13T17:51:00 IST" duration-ms="62">
+    <groups>
+      <group name="smoke">
+        <method signature="NewTest.Logout()[pri:6, instance:com.test.TestNG.NewTest@501edcf1]" name="Logout" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.addNewUser()[pri:3, instance:com.test.TestNG.NewTest@501edcf1]" name="addNewUser" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.login()[pri:2, instance:com.test.TestNG.NewTest@501edcf1]" name="login" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.openPage()[pri:1, instance:com.test.TestNG.NewTest@501edcf1]" name="openPage" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest2.Logout()[pri:12, instance:com.test.TestNG.NewTest2@78b729e6]" name="Logout" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.addNewUser()[pri:9, instance:com.test.TestNG.NewTest2@78b729e6]" name="addNewUser" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.login()[pri:8, instance:com.test.TestNG.NewTest2@78b729e6]" name="login" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.openPage()[pri:7, instance:com.test.TestNG.NewTest2@78b729e6]" name="openPage" class="com.test.TestNG.NewTest2"/>
+      </group> <!-- smoke -->
+      <group name="Performance">
+        <method signature="NewTest.Logout()[pri:6, instance:com.test.TestNG.NewTest@501edcf1]" name="Logout" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.addNewUser()[pri:3, instance:com.test.TestNG.NewTest@501edcf1]" name="addNewUser" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.login()[pri:2, instance:com.test.TestNG.NewTest@501edcf1]" name="login" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.openPage()[pri:1, instance:com.test.TestNG.NewTest@501edcf1]" name="openPage" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.removeExistingUser()[pri:5, instance:com.test.TestNG.NewTest@501edcf1]" name="removeExistingUser" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest.viewUsers()[pri:4, instance:com.test.TestNG.NewTest@501edcf1]" name="viewUsers" class="com.test.TestNG.NewTest"/>
+        <method signature="NewTest2.Logout()[pri:12, instance:com.test.TestNG.NewTest2@78b729e6]" name="Logout" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.addNewUser()[pri:9, instance:com.test.TestNG.NewTest2@78b729e6]" name="addNewUser" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.login()[pri:8, instance:com.test.TestNG.NewTest2@78b729e6]" name="login" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.openPage()[pri:7, instance:com.test.TestNG.NewTest2@78b729e6]" name="openPage" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.removeExistingUser()[pri:11, instance:com.test.TestNG.NewTest2@78b729e6]" name="removeExistingUser" class="com.test.TestNG.NewTest2"/>
+        <method signature="NewTest2.viewUsers()[pri:10, instance:com.test.TestNG.NewTest2@78b729e6]" name="viewUsers" class="com.test.TestNG.NewTest2"/>
+      </group> <!-- Performance -->
+    </groups>
+    <test started-at="2020-09-13T17:51:00 IST" name="Test" finished-at="2020-09-13T17:51:00 IST" duration-ms="62">
+      <class name="com.test.TestNG.NewTest2">
+        <test-method signature="addNewUser()[pri:9, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="addNewUser" finished-at="2020-09-13T17:51:00 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="viewUsers()[pri:10, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="viewUsers" finished-at="2020-09-13T17:51:00 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewUsers -->
+        <test-method signature="openPage()[pri:7, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="openPage" finished-at="2020-09-13T17:51:00 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="login()[pri:8, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="login" finished-at="2020-09-13T17:51:00 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="removeExistingUser()[pri:11, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="removeExistingUser" finished-at="2020-09-13T17:51:00 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeExistingUser -->
+        <test-method signature="Logout()[pri:12, instance:com.test.TestNG.NewTest2@78b729e6]" started-at="2020-09-13T17:51:00 IST" name="Logout" finished-at="2020-09-13T17:51:00 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- com.test.TestNG.NewTest2 -->
+      <class name="com.test.TestNG.NewTest">
+        <test-method is-config="true" signature="initiateTest()[pri:0, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="initiateTest" finished-at="2020-09-13T17:51:00 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiateTest -->
+        <test-method signature="Logout()[pri:6, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="Logout" finished-at="2020-09-13T17:51:00 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="openPage()[pri:1, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="openPage" finished-at="2020-09-13T17:51:00 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPage -->
+        <test-method signature="addNewUser()[pri:3, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="addNewUser" finished-at="2020-09-13T17:51:00 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewUser -->
+        <test-method signature="login()[pri:2, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="login" finished-at="2020-09-13T17:51:00 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="viewUsers()[pri:4, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="viewUsers" finished-at="2020-09-13T17:51:00 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewUsers -->
+        <test-method signature="removeExistingUser()[pri:5, instance:com.test.TestNG.NewTest@501edcf1]" started-at="2020-09-13T17:51:00 IST" name="removeExistingUser" finished-at="2020-09-13T17:51:00 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeExistingUser -->
+      </class> <!-- com.test.TestNG.NewTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
