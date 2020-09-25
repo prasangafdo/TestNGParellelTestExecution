@@ -124,22 +124,22 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest2" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest" class="method navigator-link" hash-for-method="openPage">openPage</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest" class="method navigator-link" hash-for-method="login">login</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest2" class="method navigator-link" hash-for-method="openPage">openPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.test.TestNG.NewTest" class="method navigator-link" hash-for-method="openPage">openPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -283,8 +283,8 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;Suite&quot;&gt;
-  &lt;test thread-count=&quot;10&quot; parallel=&quot;methods&quot; name=&quot;Test&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot;&gt;
+  &lt;test thread-count=&quot;4&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.test.TestNG.NewTest&quot;/&gt;
       &lt;class name=&quot;com.test.TestNG.NewTest2&quot;/&gt;
@@ -377,58 +377,58 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(12);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
+data.setCell(0, 1, 'openPage')
 data.setCell(0, 2, 'com.test.TestNG.NewTest2')
-data.setCell(0, 3, 14);
+data.setCell(0, 3, 6);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addNewUser')
-data.setCell(1, 2, 'com.test.TestNG.NewTest2')
-data.setCell(1, 3, 13);
+data.setCell(1, 1, 'openPage')
+data.setCell(1, 2, 'com.test.TestNG.NewTest')
+data.setCell(1, 3, 6);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'login')
-data.setCell(2, 2, 'com.test.TestNG.NewTest')
-data.setCell(2, 3, 12);
+data.setCell(2, 2, 'com.test.TestNG.NewTest2')
+data.setCell(2, 3, 1);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'addNewUser')
-data.setCell(3, 2, 'com.test.TestNG.NewTest')
-data.setCell(3, 3, 11);
+data.setCell(3, 2, 'com.test.TestNG.NewTest2')
+data.setCell(3, 3, 1);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'removeExistingUser')
-data.setCell(4, 2, 'com.test.TestNG.NewTest')
-data.setCell(4, 3, 11);
+data.setCell(4, 1, 'viewUsers')
+data.setCell(4, 2, 'com.test.TestNG.NewTest2')
+data.setCell(4, 3, 1);
 data.setCell(5, 0, 5)
 data.setCell(5, 1, 'viewUsers')
 data.setCell(5, 2, 'com.test.TestNG.NewTest')
-data.setCell(5, 3, 10);
+data.setCell(5, 3, 1);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'Logout')
+data.setCell(6, 1, 'login')
 data.setCell(6, 2, 'com.test.TestNG.NewTest')
-data.setCell(6, 3, 9);
+data.setCell(6, 3, 1);
 data.setCell(7, 0, 7)
-data.setCell(7, 1, 'viewUsers')
-data.setCell(7, 2, 'com.test.TestNG.NewTest2')
-data.setCell(7, 3, 9);
+data.setCell(7, 1, 'addNewUser')
+data.setCell(7, 2, 'com.test.TestNG.NewTest')
+data.setCell(7, 3, 1);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'openPage')
-data.setCell(8, 2, 'com.test.TestNG.NewTest2')
-data.setCell(8, 3, 8);
+data.setCell(8, 1, 'removeExistingUser')
+data.setCell(8, 2, 'com.test.TestNG.NewTest')
+data.setCell(8, 3, 1);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'openPage')
-data.setCell(9, 2, 'com.test.TestNG.NewTest')
-data.setCell(9, 3, 7);
+data.setCell(9, 1, 'Logout')
+data.setCell(9, 2, 'com.test.TestNG.NewTest2')
+data.setCell(9, 3, 1);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'removeExistingUser')
-data.setCell(10, 2, 'com.test.TestNG.NewTest2')
-data.setCell(10, 3, 6);
+data.setCell(10, 1, 'Logout')
+data.setCell(10, 2, 'com.test.TestNG.NewTest')
+data.setCell(10, 3, 0);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'Logout')
+data.setCell(11, 1, 'removeExistingUser')
 data.setCell(11, 2, 'com.test.TestNG.NewTest2')
-data.setCell(11, 3, 5);
+data.setCell(11, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 115 ms</span>
+              <span class="suite-total-time">Total running time: 20 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -461,72 +461,81 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">openPage</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">openPage</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">Logout</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">viewUsers</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">viewUsers</span>
-                <span class="method-start">18 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">addNewUser</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">11 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">20 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">login</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">addNewUser</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">22 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">login</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-name">addNewUser</span>
+                <span class="method-start">23 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewUsers</span>
+                <span class="method-start">24 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">viewUsers</span>
+                <span class="method-start">25 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">removeExistingUser</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">removeExistingUser</span>
-                <span class="method-start">19 ms</span>
+                <span class="method-start">27 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.test.TestNG.NewTest2</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Logout</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-start">28 ms</span>
               </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.test.TestNG.NewTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">removeExistingUser</span>
-                <span class="method-start">34 ms</span>
+                <span class="method-name">Logout</span>
+                <span class="method-start">29 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
